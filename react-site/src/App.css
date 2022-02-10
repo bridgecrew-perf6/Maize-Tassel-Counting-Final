@@ -1,0 +1,146 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: stretch;
+  padding: 0px;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  display: block;
+  position: relative;
+  padding: var(--bs-gutter-x,.75rem);
+}
+
+.pro-sidebar {
+  height: 100% !important;
+  min-width: 250px !important;
+  max-width: 250px !important;
+  width: 250px !important;
+  display: block;
+  top: 0;
+  bottom: 0;
+}
+
+.pro-sidebar-header {
+  padding: 35px;
+}
+
+.top, .bottom{
+  height: 50%;
+}
+
+.left, .right {
+  min-width: 50%;
+  width: 50%;
+  max-width: 50%;
+}
+
+.manual, .about, .contact, .upload, .test, .m-upload{
+  width: 100vw;
+  height: 100vh;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 10px 0;
+}
+
+.img-fluid {
+  min-height:50%;
+  width: inherit;
+}
+
+.img-right > img{ 
+  display: block !important;
+  margin-left: auto !important;
+}
+
+.visualization-btn {
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin: 0px 0px 5px 0px;
+  display:block;
+}
+
+.visualization-btnM {
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin: 0px 5px 0px 0px;
+  display:block;
+}
+
+.multiple-btn { 
+  flex-direction: row;
+  display: flex;
+}
+
+.resultsDisplay p{
+  color:black;
+  text-align:left;
+}
+
+.img-right {
+  flex: 1 0.5 0%;
+  max-width: 50%;
+  max-height: 50%;
+  height: auto;
+}
+
+.full-scroll-element { 
+  position: relative; 
+  height: inherit; 
+  overflow: auto;
+}
+
+.img-tt { 
+  max-width: 100%;
+}
+
+.img-m { 
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.center { 
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.footerP { 
+  font-size: 8px;
+}
+
