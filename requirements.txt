@@ -3,7 +3,6 @@ torch==1.10.2+cpu
 torchvision==0.11.3+cpu
 uvicorn[standard]
 numpy
-pandas
 Pillow==8.0.1
 fastapi
 python-multipart
@@ -11,7 +10,5 @@ matplotlib
 opencv-python
 opencv-python-headless==4.5.3.56
 requests>=2.23.0
-tqdm>=4.41.0
 seaborn>=0.11.0
-pytest
 gunicorn
