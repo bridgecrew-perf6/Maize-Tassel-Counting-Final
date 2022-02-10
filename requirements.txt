@@ -1,7 +1,8 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.10.2+cpu
+torchvision==0.11.3+cpu
 uvicorn[standard]
 numpy
-torch==1.10.0+cpu
-torchvision==0.11.1+cpu
 pandas
 Pillow==8.0.1
 fastapi
