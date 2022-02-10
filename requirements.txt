@@ -5,7 +5,6 @@ uvicorn[standard]
 numpy
 Pillow==8.0.1
 fastapi
-python-multipart
 matplotlib
 opencv-python
 opencv-python-headless==4.5.3.56
